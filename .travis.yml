@@ -9,4 +9,4 @@ python:
 # - pip install python-coveralls
 
 script:
- - ./test.py
+ - python3 ./test.py
