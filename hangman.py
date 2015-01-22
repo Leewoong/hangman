@@ -160,6 +160,6 @@ def main():
             gameFailed = checkWrongAnswer(missedLetters, secretWord)
 
 
-# call main function!
+# call main function!!
 if __name__ == "__main__":
     main()
