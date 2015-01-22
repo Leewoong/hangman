@@ -5,10 +5,8 @@ python:
  - "3.4"
 
 install: 
-  - pip install coverage
-  - pip install python-coveralls
+ # - pip install coverage
+ # - pip install python-coveralls
 
-script: coverage run --source=test.py
-
-after_success: 
-  - coveralls
+script:
+ - ./test.py
