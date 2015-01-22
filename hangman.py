@@ -121,8 +121,8 @@ def checkWrongAnswer(missedLetters, secretWord):
         return True
     return False
             
+"""Main application entry point."""
 def main():
-    """Main application entry point."""
     print('H A N G M A N - by keeyong')
     missedLetters = ''
     correctLetters = ''
